@@ -10,7 +10,7 @@ class App extends React.Component<any> {
                 render={({ location }) => (
                     <React.Fragment>
                         <Switch location={location}>
-                            {/* Years Dashboard */}
+                            {/* Country Information Dashboard */}
                             <Route path="/" exact component={SearchComponent} />
                         </Switch>
                     </React.Fragment>
