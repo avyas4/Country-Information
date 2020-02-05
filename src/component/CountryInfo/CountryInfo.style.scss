@@ -1,0 +1,36 @@
+
+.countryInfo{
+    padding-top: 2rem;
+    h2{
+        padding-bottom: 14px;
+    }
+    &__flag{
+        height: 30px;
+        width:50px;
+    }
+    &__header{
+        background-color: #E8E8E8;
+    }
+    &__container{
+        border-left: 1px solid grey;
+        border-bottom: 1px solid grey;
+ 
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        border-top: 1px solid grey;
+      }
+      
+      .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 20%;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      }
+    }
+}

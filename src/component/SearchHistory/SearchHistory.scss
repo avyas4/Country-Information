@@ -1,0 +1,29 @@
+.searchHistory{
+    padding: 3px 10px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    padding-top: 2rem;
+    ul{
+        padding:0;
+        li{
+            text-decoration: none;
+            list-style-type: none;
+            padding: 10px;
+            border: 1px solid grey;
+            border-radius: 3px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: #E8E8E8;
+            &:nth-child(2n){
+                background-color: #e5fbe5;
+            }
+            &:hover{
+                background-color: #e5fbe5;
+            }
+        }
+    }
+    h2{
+        text-align: left;
+    }
+}

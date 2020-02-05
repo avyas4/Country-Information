@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  overflow-x: auto;
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+  font-size: 14px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    height: 100vh;
+}
